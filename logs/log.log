@@ -1,0 +1,196 @@
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172) ]  Using default implementation for ThreadExecutor
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268) ]  Job execution threads will use class loader of thread: main
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240) ]  Quartz Scheduler v.2.2.3 created.
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) ]  RAMJobStore initialized.
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305) ]  Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327) ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331) ]  Quartz scheduler version: 2.2.3
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 12:04:33  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 0 triggers
+2019-04-15 12:04:33  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 12:04:33  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:33  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:33  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:33  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:04:38  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:38  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:38  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:04:43  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:43  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:04:43  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:48  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:48  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:48  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:04:53  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:53  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:04:53  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:58  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:04:58  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:04:58  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:03  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:03  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:03  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:08  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:08  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:08  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:13  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:13  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:13  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:18  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:18  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:18  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:23  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:23  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:23  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:28  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:28  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:28  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:33  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:33  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:33  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:38  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:38  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:38  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:43  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:43  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:43  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:48  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:48  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:48  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:53  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:53  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:05:53  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:58  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:05:58  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:05:58  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:03  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:03  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:03  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:08  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:08  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:08  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:13  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:13  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:13  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:18  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:18  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:18  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:23  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:23  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:23  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:28  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:28  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:28  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:33  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:33  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:33  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:38  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:38  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:38  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:43  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:43  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:43  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172) ]  Using default implementation for ThreadExecutor
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268) ]  Job execution threads will use class loader of thread: main
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240) ]  Quartz Scheduler v.2.2.3 created.
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) ]  RAMJobStore initialized.
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305) ]  Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327) ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331) ]  Quartz scheduler version: 2.2.3
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 12:06:44  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 0 triggers
+2019-04-15 12:06:44  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 12:06:44  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:44  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:44  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:44  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:48  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:48  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:48  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:49  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:49  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:49  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:53  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:53  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:53  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:54  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:54  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 12:06:54  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:58  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 12:06:58  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 12:06:58  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172) ]  Using default implementation for ThreadExecutor
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268) ]  Job execution threads will use class loader of thread: main
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240) ]  Quartz Scheduler v.2.2.3 created.
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) ]  RAMJobStore initialized.
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305) ]  Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327) ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331) ]  Quartz scheduler version: 2.2.3
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 14:24:35  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 0 triggers
+2019-04-15 14:24:35  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 14:24:35  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:35  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:24:35  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:35  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:24:40  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:24:40  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:40  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:24:45  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:24:45  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:45  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:24:50  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:24:50  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:24:50  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172) ]  Using default implementation for ThreadExecutor
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268) ]  Job execution threads will use class loader of thread: main
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240) ]  Quartz Scheduler v.2.2.3 created.
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) ]  RAMJobStore initialized.
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305) ]  Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327) ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331) ]  Quartz scheduler version: 2.2.3
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 14:33:31  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 0 triggers
+2019-04-15 14:33:31  [ INFO ]  [ method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575) ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-04-15 14:33:31  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:33:31  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:33:31  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:33:31  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:33:36  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:33:36  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
+2019-04-15 14:33:36  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:33:41  [ DEBUG ]  [ method:org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51) ]  Producing instance of Job 'group1.job1', class=com.job.testJob
+2019-04-15 14:33:41  [ DEBUG ]  [ method:org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276) ]  batch acquisition of 1 triggers
+2019-04-15 14:33:41  [ DEBUG ]  [ method:org.quartz.core.JobRunShell.run(JobRunShell.java:201) ]  Calling execute on job group1.job1
